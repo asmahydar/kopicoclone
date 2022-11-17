@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    font-family: "Playfair Display", serif;
+}   
+.header h1{
+    text-align: center;
+    color: #b7b7b7;
+    font-family: "Playfair Display", serif;
+}
+.header h1:hover{
+ 
+    color: red;
+}
+.content{
+    text-align: center;
+    color: #b7b7b7;
+    font-family: "Playfair Display", serif;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    
+    color: #b7b7b7;
+}
+.nav ul li a:hover{
+    color: red;
+}
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+.footerr{
+ width: 100%;
+ height: 120px;
+ background-color:;   
+ padding: 250px;
+}
+.icons{
+    margin-left: 80px;
+    background-colorrgb(150, 150, 179);
+    width: 700px;
+    height: 70px;
+    
+}
+.icons ul{
+    text-align:center;
+    padding: 20px;
+}
+.icons ul li{
+ 
+    display: inline;
+    padding: 60px;
+    width: 20px;
+    height: 20px;
+}
+.icons ul li a{
+    text-decoration: none;
+
+}
+.foott{
+    width: 450px;
+    background-colorbrown;
+    margin-top: 230px;
+    margin-left: 200px;
+}
+.footer{
+    color: #b7b7b7;
+}
+.footer li{
+    display: inline;
+}
+.footer li a{
+    color: #b7b7b7;
+    text-decoration: none;
+}
+.footer li a:hover{
+ 
+    color: red;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin{
+    background: #55ACEE;
+}
+.fa{
+    border-radius: 50%;
+    font-size: 30px;
+    width: 30px;
+    padding: 6px;
+}
+.fa-instagram{
+    background: rgb(138, 133, 133);
+    color: aliceblue;
+}
+.fa-youtube{
+    background: red;
+    color: antiquewhite;
+}
+.fa:hover{
+    opacity: 0.7;
+}
